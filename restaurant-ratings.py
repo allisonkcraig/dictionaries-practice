@@ -7,4 +7,4 @@ for line in opened_file:
     restaurant[new_line[0]] = new_line[1]
 
 for restaurant_name, rating in restaurant.items():
-    print "%s is rated at %s" % (restaurant_name, rating)
+    print "%s is rated at %s." % (restaurant_name, rating)
